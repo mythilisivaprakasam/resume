@@ -1,0 +1,117 @@
+
+<!-- saved from url=(0076)http://127.0.0.1:5500/My%20resume%20page.html?name=&mobile_number=&email=#me -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Simple web Development Template</title>
+        <link rel="stylesheet" href="./Simple web Development Template_files/layout.css">
+    </head>
+    <body>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <div class="logo"><img src="./Simple web Development Template_files/logo link"></div>
+                <li><a href="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=#Home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=#me">About me</a></li>
+                <li><a href="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=#q">Qualification</a></li>
+                <li><a href="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=#course">Courses</a></li>
+                <li><a href="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=#con">Contact</a></li>
+            </ul>
+             <div class="rightNav">
+                <input type="text" name="search" id="search"><button class="btn btn-sm">Search</button> </div></nav>
+        <section class="section">
+            <div class="paras">
+                <h1 class="text-big" id="me">About me</h1><br>
+                <p class="sectionSubTag text-small">
+                    My name is Mythili, 18, ofcourse a student. I’m skilled with C ,C++ and Java and I am trying to learn other programming languages, step by step.I,m currently pursueing my Bachelor's degree in Electrical and Electronics Engineering in Sri Krishna College of Technology.Just trying to do better as an Engineer everyday.</p></div>
+                    <div class="thumbnail"><img src="./Simple web Development Template_files/OIP.k3pe3U6rCMbTwqfYTTq16gHaEN" alt="Profile Pic"></div>
+        </section>
+        <section class="firstsection">
+            <div class="box-main">
+                <p class="text-small" id="q">
+                    <table style="width: 700px">
+                        <style>
+                            table,th,
+                            td {
+                                border: 2px solid black;
+                                border-collapse: collapse;
+                            }
+                            </style>
+                            </table><table border="1px" cellspacing="1px" cellpadding="6px">
+                                <tbody><tr>
+                                    <td>NAME OF THE INSTITUE</td>
+                                    <td>NAME OF THE COURSE AND DEPARTMENT</td>
+                                    <td>PLACE</td>
+                                </tr>
+                                <tr>
+                                    <td>SRI KRISHNA COLLEGE OF TECHNOLOGY</td>
+                                    <td>BE-ELECTRICAL AND ELECTRONICS ENGINEERING</td>
+                                    <td>COIMBATORE</td>
+                                </tr>
+
+                            </tbody></table>
+                            
+        </p></div></section>
+        <section class="secondsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <h1 class="text-big" id="course">Courses</h1>
+            
+                <p>1.Data Structures with C++</p><p>2.Foundation of java</p><p>3.HTML,CSS AND JS</p></div></div>
+    </section>
+    <section class="thirdsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <form action="http://127.0.0.1:5500/My%20resume%20page.html?name=&amp;mobile_number=&amp;email=">
+                    <div>
+                        <h2 class="text-small" id="con">CONTACT :</h2>
+                        <label for="na"></label>Name :
+                        <input type="text" placeholder="Mythili" name="name" id="na"></div><br><div>
+                        <label for="mnum">Mobile:</label>
+                        <input type="text" placeholder="9345073299" name="mobile_number" id="mnum"></div><br><div>
+                        <label for="em">Email :</label>
+                        <input type="email" placeholder="mythilisivaprakasam@gmail.com" name="email" id="em"></div><br>
+                    <button>Submit</button></form></div></div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            
+        </p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
